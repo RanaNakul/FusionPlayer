@@ -1,16 +1,22 @@
 🎬 Fusion Player
 
-A modern, lightweight, and highly-customizable React video player built for the modern web. Designed with Next.js and Tailwind CSS in mind, it pairs a clean UI with power-user features while staying fully editable.
+Fusion Player is a lightweight React-based video player application that allows users to search, select, and watch videos with a clean and modular component architecture.
+
+This project demonstrates how to build a custom video player interface using React components and modern JavaScript.
 
 🚀 Features
 
-▶️ Play selected videos directly in the app
+▶️ Play videos directly in the browser
 
-📃 View video suggestions related to the search query
+🔍 Search videos with a simple search interface
+
+📃 Display a list of available videos
 
 🧩 Modular React component structure
 
-⚡ Real-time video data rendering
+⚡ Fast and responsive UI
+
+Video players built with HTML5 and React allow playback controls, custom UI, and flexible integration with other components.
 
 🛠 Tech Stack
 
@@ -18,31 +24,31 @@ React.js
 
 JavaScript (ES6)
 
-YouTube API
+HTML5 Video API
 
-Webpack
-
-HTML5
+CSS
 
 📁 Project Structure
-Video-player-Component
+FusionPlayer
 │
-├── index.html          # Main landing page
-├── index.js            # Main entry file
-├── SearchBar.js        # Component for searching videos
-├── VideoList.js        # Displays list of video results
-├── VideoDetail.js      # Displays selected video player
+├── index.html
+├── index.js
+├── components
+│   ├── SearchBar.js
+│   ├── VideoList.js
+│   ├── VideoDetail.js
+│
 ├── package.json
 └── webpack.config.js
 ⚙️ Installation
 
 Clone the repository:
 
-git clone https://github.com/RanaNakul/Video-player-Component.git
+git clone https://github.com/RanaNakul/FusionPlayer.git
 
 Go to the project folder:
 
-cd Video-player-Component
+cd FusionPlayer
 
 Install dependencies:
 
@@ -51,28 +57,32 @@ npm install
 Run the development server:
 
 npm start
+
+Open in browser:
+
+http://localhost:3000
+🎯 How It Works
+
+User enters a query in the SearchBar component
+
+The application fetches video results
+
+Videos are displayed in the VideoList
+
+When a video is selected, VideoDetail renders the player
+
 📸 Demo
 
-Add a screenshot of your video player here.
+Add screenshots or GIF here.
 
 Example:
 
-/screenshot.png
-📚 How It Works
-
-User enters a video query in the SearchBar.
-
-The app sends a request to the YouTube API.
-
-Results are displayed in VideoList.
-
-When a user selects a video, VideoDetail renders the player.
-
+/demo.png
 🤝 Contributing
 
 Contributions are welcome.
 
-Fork the repo
+Fork the repository
 
 Create a new branch
 
@@ -82,6 +92,6 @@ Open a Pull Request
 
 📄 License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License.
 
 ⭐ If you like this project, consider giving it a star.
