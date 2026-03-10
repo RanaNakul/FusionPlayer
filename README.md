@@ -1,4 +1,4 @@
-🎬 Fusion Player
+<h2>🎬 Fusion Player</h2>
 
 Fusion Player is a lightweight React-based video player application that allows users to search, select, and watch videos with a clean and modular component architecture.
 
