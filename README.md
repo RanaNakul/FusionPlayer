@@ -1,10 +1,8 @@
-🎬 Video Player Component
+🎬 Fusion Player
 
-A simple React-based video player application that allows users to search and watch videos using the YouTube API. The app fetches real-time video data and displays search results with playable video previews.
+A modern, lightweight, and highly-customizable React video player built for the modern web. Designed with Next.js and Tailwind CSS in mind, it pairs a clean UI with power-user features while staying fully editable.
 
 🚀 Features
-
-🔍 Search videos using the YouTube API
 
 ▶️ Play selected videos directly in the app
 
