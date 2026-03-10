@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎬 Video Player Component
 
-## Getting Started
+A simple React-based video player application that allows users to search and watch videos using the YouTube API. The app fetches real-time video data and displays search results with playable video previews.
 
-First, run the development server:
+🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔍 Search videos using the YouTube API
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+▶️ Play selected videos directly in the app
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📃 View video suggestions related to the search query
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧩 Modular React component structure
 
-## Learn More
+⚡ Real-time video data rendering
 
-To learn more about Next.js, take a look at the following resources:
+🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+JavaScript (ES6)
 
-## Deploy on Vercel
+YouTube API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Webpack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+HTML5
+
+📁 Project Structure
+Video-player-Component
+│
+├── index.html          # Main landing page
+├── index.js            # Main entry file
+├── SearchBar.js        # Component for searching videos
+├── VideoList.js        # Displays list of video results
+├── VideoDetail.js      # Displays selected video player
+├── package.json
+└── webpack.config.js
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/RanaNakul/Video-player-Component.git
+
+Go to the project folder:
+
+cd Video-player-Component
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm start
+📸 Demo
+
+Add a screenshot of your video player here.
+
+Example:
+
+/screenshot.png
+📚 How It Works
+
+User enters a video query in the SearchBar.
+
+The app sends a request to the YouTube API.
+
+Results are displayed in VideoList.
+
+When a user selects a video, VideoDetail renders the player.
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repo
+
+Create a new branch
+
+Commit your changes
+
+Open a Pull Request
+
+📄 License
+
+This project is open source and available under the MIT License.
+
+⭐ If you like this project, consider giving it a star.
